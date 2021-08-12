@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@400;700&display=swap');
+html { scroll-behavior: smooth; }
+header {
+    background: url('../img/headerbg.jpg') right/cover;
+    min-height: 100vh;
+}
+header nav {
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul li {
+    display: block;
+    padding: 10px 0 0 0;
+}
+nav ul li a {
+    font: 1.2em Oswald, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+nav div a {
+    display: block;
+    font: 1.2em Oswald, sans-serif;
+    color: #fff;
+    padding: 10px 0 0 0;
+}
+#div1 { text-align: center; }
+#div1 h1 {
+    font: 3em Oswald, sans-serif;
+    color: #fff;
+}
+#div1 p {
+    font: 1em Montserrat, sans-serif;
+    color: #fff;
+    padding: 10px 0 20px 0;
+}
+#div1 button {
+    font: 1em Oswald, sans-serif;
+    color: #fff;
+    background: #e8631c;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 45px;
+}
+#sec1 {
+    background: #e8631c;
+    text-align: center;
+    padding: 30px 0;
+}
+#sec1 h2 {
+    font: 700 3em Oswald, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+#sec1 p {
+    font: 1em Montserrat, sans-serif;
+    color: #fff;
+}
+#div2 {
+    padding: 0 20px;
+    text-align: center;
+}
+#div2 img { width: 100%; }
+#div2 h4 {
+    font: 1.6em Oswald, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+#div2 p {
+    font: 1em Montserrat, sans-serif;
+    color: #fff;
+    padding: 0 7px 20px 7px;
+}
+#div2 article {
+    background: #303030;
+    border-radius: 20px;
+    margin: 20px 0;
+}#sec2 {
+    background: #303030;
+    padding: 30px 20px;
+    text-align: center;
+}
+#sec2 h2 {
+    font: 700 3em Oswald, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+#sec2 p {
+    font: 1em Montserrat, sans-serif;
+    color: #fff;
+}
+#div3 article {
+    background: #e8631c;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 60px 0 30px 0;
+}
+#div3 i {
+    font-size: 6em;
+    color: #fff;
+    padding: 0 0 40px 0;
+}
+#div3 h4 {
+    font: 1.6em Oswald, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+#div3 p {
+    font: 1em Montserrat, sans-serif;
+    color: #fff;
+    padding: 20px 7px 40px 7px;
+}
+#div3 a {
+    font: 1.4em Oswald, sans-serif;
+    background: #303030;
+    color: #fff;
+    padding: 5px 30%;
+    border-radius: 5px;
+}
+#div4 {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    background: #e8631c;
+}
+.div1 { order: 1; }
+.div2 { order: 2; }
+.div3 { order: 3; }
+#div4 div { padding: 10px; }
+#div4 img {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+#div4 h2 {
+    font: 700 2.5em Oswald, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+#div4 p {
+    font: 1.3em Montserrat, sans-serif;
+    color: #fff;
+    padding: 30px 0;
+}
+#div4 button {
+    font: 1em Oswald, sans-serif;
+    color: #fff;
+    background: #303030;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 50px;
+    text-transform: uppercase;
+}
+#div7 {
+    background: #303030;
+    padding: 100px 0;
+    text-align: center;
+}
+#div7 h2 {
+    font: 700 2.7em Oswald, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+#div7 p {
+    font: 1.1em Montserrat, sans-serif;
+    color: #fff;
+    padding: 20px 0;
+}
+#div8 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 30px 0;
+}
+#div8 div { padding: 20px 0; }
+#div8 h3 {
+    font: 700 3em Oswald, sans-serif;
+    color: #fff;
+}
+#div8 span {
+    font: 1.5em Montserrat, sans-serif;
+    color: #fff;
+    padding: 10px 0;
+}
+#div9 {
+    background: url('../img/main6.jpg') center/cover;
+    height: 100vh;
+    text-align: center;
+}
+#div9 p {
+    font: 1.3em Montserrat, sans-serif;
+    color: #e8631c;
+    padding: 50% 0 0 0;
+}
+#div9 h5 {
+    font: 700 2em Montserrat, sans-serif;
+    color: #e8631c;
+    padding: 30px 0;
+}
+#div10 {
+    background: #e8631c;
+    padding: 100px 0;
+    text-align: center;
+}
+#div10 h4 {
+    font: 700 2.2em Montserrat, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+#div10 h6 {
+    font: 1em Montserrat, sans-serif;
+    color: #fff;
+    padding: 20px;
+}
+#div10 input {
+    width: 90%;
+    padding: 10px 0 10px 10px;
+    border: none;
+}
+#div10 button {
+    background: #303030;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 10px 0 0 0;
+    border: none;
+}
+footer {
+    background: #303030;
+    padding: 60px 10px;
+    text-align: center;
+}
+footer h6 {
+    font: 1.5em Oswald, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 0 10px 0;
+}
+footer p {
+    font: .9em Montserrat, sans-serif;
+    color: #fff;
+    padding: 0 0 20px 0;
+}
+footer i {
+    font-size: 1.8em;
+    background: #fff;
+    color: #303030;
+    border-radius: 50%;
+    padding: 1%;
+    margin: 0 3px 0 0;
+}
+footer .fa-facebook-f { padding: 1% 2.2%; }
+footer span {
+    display: block;
+    font: .9em Montserrat, sans-serif;
+    color: #fff;
+    padding: 0 0 5px 0;
+}
+footer div { padding: 0 0 20px 0; }
+@media only screen and (min-width: 768px) {
+    header { position: relative; }
+    header nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background: rgba(48, 48, 48, .95);
+        padding: 5px 0;
+    }
+    header img { padding: 5px 0 0 70px; }
+    nav ul li {
+        display: inline-block;
+        padding: 25px 30px 0 0;
+    }
+    nav div a {
+        display: inline-block;
+        padding: 25px 65px 0 0;
+    }
+    #div1 {
+        position: absolute;
+        width: 40%;
+        top: 260px;
+        left: 90px;
+        text-align: inherit;
+    }
+    #div1 h1 { font-size: 5em; }
+    #div1 p {
+        font-size: 1.3em;
+        padding: 0 0 30px 0;
+    }
+    #div1 button {
+        font-size: 1.3em;
+        padding: 15px 90px;
+    }
+    #sec1 h2 { font-size: 4em; }
+    #sec1 p { font-size: 1.3em; }
+    #div2 {
+        display: grid;
+        grid-template-columns: 23% 23% 23%;
+        justify-content: center;
+        grid-column-gap: 50px;
+        padding: 50px 0 0 0;
+    }
+    #div2 p { font-size: 1em; }
+    #sec2 { padding: 30px 0; }
+    #sec2 h2 { font-size: 4em; }
+    #div3 {
+        display: grid;
+        grid-template-columns: 23% 23% 23%;
+        justify-content: center;
+        grid-column-gap: 50px;
+        padding: 50px 0 0 0;
+    }
+    #div4 {
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        text-align: inherit;
+    }
+    #div4 div { padding: inherit; }
+    #div4 h2 { font-size: 3.5em; }
+    #div4 img:hover { opacity: .7; }
+    #div5 { order: 1; }
+    #div6 { padding: 0 15%! important; }
+    #div7 h2 { font-size: 3.5em; }
+    #div7 p { font-size: 1.3em; }
+    #div8 {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 80px 0 30px 0;
+    }
+    #div9 { position: relative; }
+    #div9 div {
+        position: absolute;
+        width: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #div9 p {
+        font-size: 1.8em;
+        padding: inherit;
+    }
+    #div9 h5 { font-size: 2.2em; }
+    #div10 h4 { font-size: 3em; }
+    #div10 h6 {
+        font-size: 1.4em;
+        padding: 20px 25%;
+    }
+    #div10 input { width: 25%; }
+    #div10 button { margin: 0; }
+    footer {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 60px 30px;
+        text-align: inherit;
+    }
+    footer #div11 {
+        display: flex;
+        justify-content: space-around;
+    }
+    footer p { padding: 0 30% 20px 0; }
+    footer i { padding: .7%; }
+    footer .fa-facebook-f { padding: .7% 1.3%; }
+}
